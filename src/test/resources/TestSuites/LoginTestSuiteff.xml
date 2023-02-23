@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="LoginTestSuiteVariousBrowsers" verbose="1" >
+  
+ <test name="LoginTest - FF"   >
+  	<parameter name="browser" value="iex"></parameter>
+    <classes>
+      <class name="com.packt.tests.LoginTest" />
+   </classes>
+ </test>
+ 
+</suite>
