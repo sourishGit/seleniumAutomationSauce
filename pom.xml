@@ -6,16 +6,16 @@
   <name>Mastering selenium webdriver</name>
   
   <properties>
-  <suiteXmlFile>C:\Users\sourish\ws1\mastering_selenium_webdriver\src\test\resources\TestSuites\LoginTestSuites.xml</suiteXmlFile>
+  <suiteXmlFile>LoginTestSuiteVariousBrowsersSauce.xml</suiteXmlFile>
   </properties>
   
-      <dependencies>
+       <dependencies>
       
         <dependency>
           <groupId>org.testng</groupId>
           <artifactId>testng</artifactId>
           <version>6.9.8</version>
-          <scope>test</scope>
+          <scope>compile</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -44,7 +44,7 @@
         <version>3.0.0-M8</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+            <suiteXmlFile>/Users/sourish/newRep2/seleniumAutomationSauce/src/test/resources/TestSuites/${suiteXmlFile}</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
